@@ -1,5 +1,13 @@
 @extends('layouts.app')
+<style>
 
+body { 
+width: 100%;
+height:100%;
+font-family: 'Open Sans', sans-serif;
+background-image: linear-gradient(to right top, #ff5b67, #e45490, #b45daa, #7a65b1, #3e67a3, #4367a4, #4868a4, #4d68a5, #8f66ae, #ca5e9e, #f2607b, #fe784c);
+}
+</style>
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
